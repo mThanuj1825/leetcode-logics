@@ -1,0 +1,4 @@
+-> Count the total number of complete nodes in a binary tree
+-> The Solution:
+	-> return 0 if root is null
+	-> else, return 1 + count(root.left) + count(roo.right)

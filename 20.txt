@@ -1,0 +1,7 @@
+-> We need to find whether the string has valid paranthesis or not
+-> We can do this using a stack
+-> The Solution:
+	-> For every opening bracket we encounter, we push it into stack
+		-> If the first bracket we encounter is a closing, we return False
+	-> For every closing bracket we encounter, we pop one element from stack and check for compatability of popped bracket and the current bracket
+		-> If not compaible we return False

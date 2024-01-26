@@ -1,0 +1,7 @@
+-> We need remove duplicates in a sorted array and then return the size of unique elements
+-> We can do this using a two pointer approach
+-> The Solution:
+	-> Initialize left to 0
+	-> Iterate through the indices of nums using right
+	-> If the left number and right number are not equal we increment left and swap left and right
+	-> In the end we return left + 1

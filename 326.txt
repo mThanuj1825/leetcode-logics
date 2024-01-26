@@ -1,0 +1,7 @@
+-> Check whether a given number is power of 3 or not
+-> We can do this using mathematical formulae
+-> The Solution:
+	-> If the number is 0 or neg, return False
+	-> Then find the log base-3 of the given number
+	-> Round the log value and find the difference between log value and the rounded log value
+	-> If the difference is minimal (less than 1e-10), then it is a power of 3

@@ -1,0 +1,8 @@
+-> T is an anagram of S if we can create T with all the characters of S
+	-> "anagram" and "nagaram"
+-> We can use HashMap to count the frequencies of characters in both the strings
+-> The Solution:
+	-> Loop through T and create frequency map
+	-> Loop through S and create frequency map
+	-> Compare the frequencies and return true if they are same 
+	-> Else return false

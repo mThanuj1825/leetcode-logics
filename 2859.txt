@@ -1,0 +1,8 @@
+-> Given an array of integers and a integer k, find sum of all integers whose indices' bit count is equal to k
+-> We can do this using bit manipulation
+-> The Solution:
+    -> First initialize sum to 0
+    -> Then iterate through all the indices
+        -> For every index, check the no of set bits in it
+        -> If no of set bits is equal to k, add it to sum
+    -> Return sum

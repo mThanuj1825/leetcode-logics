@@ -1,0 +1,10 @@
+-> We need to reverse only the vowels in a given string
+-> We can do this using two pointer approach
+-> The Solution:
+	-> Initialzie l = 0 and r = len(s) - 1
+	-> Loop while l < r
+		-> In order to find the first vowel, we need to loop until the lth character is vowel and increment l
+		-> In order to find the last vowel, we need to loop until the rth character is vowel and decrement r
+		-> Then swap lth and rth element
+		-> Then increment l and decrement r
+	-> return the resultant string

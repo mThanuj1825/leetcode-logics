@@ -1,0 +1,5 @@
+-> We need to add the digits of a given number repeatedly and reduce it to a single digit
+-> We can do this linearly using a loop
+-> The Solution:
+	-> While the number is greater than 9, we can convert the number into a string and add each digit and store it in a sum and then update the number to be equal to sum
+	-> We return the number

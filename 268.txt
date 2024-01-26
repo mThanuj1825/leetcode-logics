@@ -1,0 +1,7 @@
+-> We need to find the missing number from array having [0, n]
+-> We can do this using a formula of sum of n natural numbers
+-> The Solution:
+	-> First we find out the value of n by the length of array
+	-> Then we calculate the formula based sum (n * (n + 1)) / 2
+	-> Then we calculate the actual sum from the array by adding all the elements together
+	-> Then return formula sum - actual sum

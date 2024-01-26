@@ -1,0 +1,9 @@
+-> We need to find the maximum no of consecutive ones in a list
+-> We can do this using a simple loop
+-> The Solution:
+    -> We need to initialize maximum and current to 0
+    -> Then iterate through all the numbers in nums array
+    -> If the number is equal to 0, we need to update the maximum and then change current to 0
+    -> Else, we need to increment current
+    -> At the end of the loop, we need to consider an edge case of ending with 1, so we also update maximum for one more time
+    -> Return maximum

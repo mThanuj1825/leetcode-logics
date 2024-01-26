@@ -1,0 +1,6 @@
+-> Given an integer x, we need to find out if its a palindrome or not
+-> We can do this using basic loops
+-> The Solution:
+	-> Convert the number to string
+	-> Copy the string to another temp
+	-> Reverse the temp and compare number and temp

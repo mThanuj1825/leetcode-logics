@@ -1,0 +1,9 @@
+-> Given a linked list of integers in a sorted order, we need to remove the duplicate elements
+-> We can do this using a simple loop
+-> The Solution:
+	-> If the head is null, return head
+	-> Else initialize t to head
+	-> Loop through the linked list until t.next is null
+		-> If current value is equal to next value, make the current next to next's next
+		-> Else, increment t to next
+	-> Return head

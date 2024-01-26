@@ -1,0 +1,6 @@
+-> We need to find all the disappeared numbers in an array and return them as a list
+-> We can do this using a simple sorting technique
+-> The Solution:
+	-> Perform modified Cyclic Sort on the array
+	-> Then iterate over the elements to see which elements are not in their respective positions, and then add the indices of those elements to the res list
+	-> return res

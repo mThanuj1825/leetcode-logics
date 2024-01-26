@@ -1,0 +1,4 @@
+-> We need to find whether a given number is a power of 2 or not
+-> We can solve this using Bit Manipulation
+-> The Solution:
+	-> If the number is not equal to zero and number & (number - 1) is zero, then it is a power of two

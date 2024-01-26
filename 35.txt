@@ -1,0 +1,6 @@
+-> We need to search for the position of target or where we can insert the current element for the entire array to be in ascending order
+-> We can do this by using Binary Search
+-> The Solution:
+	-> Perform a simple binary search
+	-> If we found the target, we will return its index
+	-> Else we will return the final low value

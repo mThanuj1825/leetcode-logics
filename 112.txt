@@ -1,0 +1,7 @@
+-> Given a binary tree, we need to find if a path exists for the targetSum
+-> We can do this recursively using backtracking
+-> The Solution:
+	-> If the given root is null, we return False
+	-> If it is the leaf node and the targetSum equals the node value, we return True
+	-> We recursively calculate the left and right validations
+	-> Finally we return left or right, showing us that atleast one path on the left or right leads to the targetSum

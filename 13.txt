@@ -1,0 +1,8 @@
+-> We need to convert the roman to integer
+-> We can do this using maps
+-> The Solution:
+	-> First create a map for all the values
+	-> Then iterate the string from the end
+	-> If the current symbol's value is less than the previous symbol's value, then subtract the current value from the total sum
+	-> Else add the current value to the sum
+	-> Finally return n

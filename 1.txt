@@ -1,0 +1,7 @@
+-> Find the pair of numbers that sum up to target
+-> We can use a HashMap to store the differences of current element and the target sum and then find the pair in each iteration
+-> The Solution:
+	-> Create an empty map
+	-> Loop through the array
+	-> If the current value is present in the map, return the current index and the value in map
+	-> Else we add the element in map as {target - current, index of current}

@@ -1,0 +1,7 @@
+-> We need to find the square root of a number, but only upto the integer value
+-> We can do this using Newton-Raphson method
+-> The Solution:
+	-> We initialize guess to be x // 2 if x > 1 else 1
+	-> We do a loop while guess * guess > x
+		-> Formula is, guess = (guess + x // guess) // 2
+	-> After the loop we return guess

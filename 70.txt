@@ -1,0 +1,6 @@
+-> We need to find the total number of ways to climb n stairs, if we can climb 1 or 2 stairs at one time
+-> We can solve this using memoization
+-> The Solution:
+	-> This is a fibonacci series implementation with the starting f = 1 and s = 1
+	-> We can memoize these into a map to increase its efficiency
+	-> Finanny we return fib(n)

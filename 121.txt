@@ -1,0 +1,8 @@
+-> We need to choose a minimum day to buy such that the next maximum buy day will give us the maximum profits
+-> We can use linear search to do this
+-> The Solution:
+	-> set max to 0 and minPrice to 0th Day
+	-> for every price in the array
+		-> if price is less than minPrice, update minPrice
+		-> else, calculate profit and update max
+	-> return max

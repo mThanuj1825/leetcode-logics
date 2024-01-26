@@ -1,0 +1,7 @@
+-> Given l, r, we need to find out all the self dividing numbers between l and r
+-> The Solution:
+    -> Loop from l to r
+    -> For every num value, check if it is self dividing
+        -> If the number contains 0 or any digit does not divide it, dont add it to result list
+        -> Else add it to the result list
+    -> Return result

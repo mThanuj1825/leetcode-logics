@@ -1,0 +1,9 @@
+-> We need to find the longest substring in the string that doesnt have any repeating characters
+-> We can use Sliding Window to solve this
+-> The Solution:
+	-> First we create a set to store the characters encountered
+	-> We initialize left to 0
+	-> We then loop from 0 to len(string)
+	-> For every character that we encounter in string that is also a part of the set, we remove it and increment left pointer by 1
+	-> Else we add the current character to the set and modify the max value of the result and increment the right pointer by 1
+	-> We then find out the new size of the set and then update the result variable

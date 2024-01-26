@@ -1,0 +1,7 @@
+-> We need to count the number of set bits present from 0 <= i <= n, and add them in a list and return the list
+-> We can do this using a simple loop
+-> The Solution:
+	-> Create an empty list
+	-> Loop from [0, n]
+	-> For every i value, count the number of set bits and then append it to the list
+	-> return the list

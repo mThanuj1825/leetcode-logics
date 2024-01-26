@@ -1,0 +1,8 @@
+-> We need to find out whether a number is ugly or not
+-> We can do this using brute force
+-> The Solution
+	-> First check if the number is 0, we return False
+	-> Then we remove all the 2's from the factors
+	-> Then we remove all the 3's from the factors
+	-> Then we remove all the 5's from the factors
+	-> If the number is changed to 1, we return True, else False

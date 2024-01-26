@@ -1,0 +1,8 @@
+-> We need to find whether a array has a duplicate element in it or not
+-> We can do this using a set
+-> The Solution:
+	-> Create an empty set
+	-> For every integer in nums
+		-> If the number is in set, we return true
+		-> Else we add it to the set
+	-> Return false

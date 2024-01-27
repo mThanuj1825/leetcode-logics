@@ -1,0 +1,9 @@
+-> We are given an API isBadVersion(int) -> bool, which tells us whether a given version is bad or not
+-> Then we are to find the first bad version in the entire history
+-> We can use a binary search to check for the first bad version
+-> The Solution:
+	-> Perform a binary search from 1 to n
+	-> For every mid version, we check if it is bad or not
+	-> If it is bad, we modify high to mid
+	-> Else, we modify low to mid + 1
+	-> Finally, return low or high

@@ -1,0 +1,7 @@
+-> Given an integer array that has zeroes, +ve, -ve, we need to move all the zeroes to the end of the array
+-> We can use 2 pointer approach to solve this
+-> The Solution:
+	-> We initialize left to -1 and right to 0
+	-> Loop until right is less than the length of nums
+		-> If the right index's integer is not zero, we increment the left index and swap left and right elements
+	

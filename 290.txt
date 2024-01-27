@@ -1,0 +1,11 @@
+-> We need to check if the mapping from the pattern is there for every word in s
+-> We can do this using a simple hash map
+-> The Solution:
+	-> Create an empty map
+	-> Split s into a string array
+	-> If the length of pattern is not equal to length of strings, return false
+	-> Iterate over all the characters in pattern and its respective string in strings array
+		-> If character is already in map and its value is not equal to current string, we return false
+		-> Else, If the string is not present in the value set, we add the entry of the current character and its string
+		-> Else we return false
+	-> Return true

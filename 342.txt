@@ -1,0 +1,6 @@
+-> We need to check if the given number is a power of 4 or not
+-> We can do this using bit manipulation
+-> The Solution:
+	-> First check whether it is a power of two ((n & (n - 1)) == 0)
+		-> If true, then check if the position of the set bit, if it is even, then return True
+	-> Return False

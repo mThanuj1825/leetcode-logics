@@ -1,0 +1,9 @@
+-> We need to check if s is a sub sequence of t
+-> We can do this using a 2 pointer approach
+-> The Solution:
+	-> Initialize l, r to 0
+	-> While l is less than length of s,
+		-> Put r in its respective position such that t[r] == s[l] by using a while loop
+		-> Check if r == len(t), if so return False
+		-> Increment l, r
+	-> return True

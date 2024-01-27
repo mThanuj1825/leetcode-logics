@@ -1,0 +1,4 @@
+-> We have to find the number of segements in a given string
+-> We can using a string manipulation method
+-> The Solution:
+	-> Return length of s.split()

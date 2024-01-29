@@ -1,0 +1,12 @@
+-> We are given two sorted arrays, and we need to merge the second array into the first one in the sorted order
+-> We can use two pointer approach to solve this
+-> The Solution:
+	-> Initialize l to m - 1 and r to n - 1
+	-> Initialize idx to m + n - 1
+	-> While l is valid and r is valid
+		-> Check for which element to be placed in idx position of nums1
+		-> Based on that decrement the respective indices
+	-> While l is valid
+		-> Add the integer to idx index
+	-> While r is valid
+		-> Add the integer to idx index

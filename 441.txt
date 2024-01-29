@@ -1,0 +1,4 @@
+-> We are given 'n' coins and must build a staircase. We are to return the no of complete steps we can form using this
+-> We can solve this by using mathematics
+-> The Solution:
+	-> Return floor(sqrt(-1 + sqrt(1 + 8 * n)))

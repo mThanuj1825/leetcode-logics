@@ -1,0 +1,14 @@
+-> We need to implement a min stack that has O(1) time complexity for retrieving the min element
+-> The Solution:
+	-> init()
+		-> Initialize min to least integer
+		-> Initialize empty stack
+	-> push()
+		-> Modify the min value based on input value
+		-> Push into the stack
+	-> pop()
+		-> If we have no elements in the stack, pop the value from stack and modify the min element
+	-> top()
+		-> Return last element in stack
+	-> getMin()
+		-> Return min element

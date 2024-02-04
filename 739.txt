@@ -1,0 +1,10 @@
+-> We are given an array of temperatures of each day of n days
+-> For every day, we need to find the next warmer day, if there is no warmer day, we put it as 0
+-> We can do this using a Monotonic Stack
+-> The Solution:
+	-> Create a result array and a stack
+	-> For every index in temperatures,
+		-> While the stack is not empty and the current temperature is greater than the top,
+			-> Pop and at that index, put i - j
+		-> Push the current index into the stack
+	-> Return result

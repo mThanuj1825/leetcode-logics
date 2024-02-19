@@ -1,0 +1,14 @@
+-> We need to split the array to k subarrays such that the maximum sum of those subarrays is the minimum of all the combinations
+-> We can do this using a binary search
+-> The Solution:
+	-> First find the 'low' by finding the maximum in the array
+	-> Then find the 'high' by adding all the elements in the array
+	-> Then perform a binary search using the low and high found
+		-> For every mid element
+		-> Initialize sum to 0 and parts to 1
+		-> For each element in the array
+			-> If the new sum is greater than the mid, initialize sum to the current element and increment parts
+			-> Else add the current element to the sum
+		-> If the parts are greater than the given 'k', modify low to mid + 1
+		-> Else high to mid
+	-> Then return low or high

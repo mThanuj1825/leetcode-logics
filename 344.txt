@@ -1,0 +1,6 @@
+-> Reverse a given string in place (string is given like a character array)
+-> We can use two-pointer approach to solve this
+-> The Solution:	
+	-> Initialize l = 0 and r = maxIndex
+	-> Iterate while l < r
+	-> In every loop, we swap lth and rth positions and increment l and decrement r

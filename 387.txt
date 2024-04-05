@@ -1,6 +1,0 @@
--> We need to find the first unique character in a string
--> The Solution:
-	-> For every character in s,
-		-> Find the index of c and reverse index of c
-		-> If both are equal we return the index
-	-> return -1

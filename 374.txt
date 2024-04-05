@@ -1,4 +1,0 @@
--> We need to guess a number based on an API
--> We can do this using a binary search
--> The Solution:
-	-> Use binary search and for every mid value check with the API's response and deal accordingly

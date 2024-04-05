@@ -1,9 +1,0 @@
--> We need to find the majority element in the given array of integers
--> We can do this using Boyer-Moore voting algorithm
--> The Solution:
-	-> First initialize count and majority to 0
-	-> Iterate over all the integers in the array
-		-> If the count is 0, we update the majority as current element and then make count as 1
-		-> If majority is equal to the current element, we increment count
-		-> Else we decrement count
-	-> Return majority

@@ -1,6 +1,0 @@
--> We need to find the number that is not repeating 2 times
--> We can do this using Bit Manipulation
--> The Solution:
-	-> We initialize xor to 0
-	-> Then we bitwise-xor each element in the array with the xor variable
-	-> We return the variable xor after the loop

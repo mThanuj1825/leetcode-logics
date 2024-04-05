@@ -1,8 +1,0 @@
--> We need to reverse the bits of a current 32-bit integer and return the new integer
--> We can do this using Bit Manipulation
--> The Solution:
-	-> We initialize res to 0
-	-> We perform a loop for 32 times
-		-> Each time we left shift res by 1 and bitwise-or it with (n & 1)
-		-> We right shift n by 1
-	-> In the end we return the new integer res

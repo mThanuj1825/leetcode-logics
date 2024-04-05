@@ -1,5 +1,0 @@
--> We need to find the difference between two strings, where one string has an extra character
--> We can do this using simple string method
--> The Solution:
-	-> For every char in s, we remove one occurence of that char in t
-	-> return t

@@ -1,6 +1,0 @@
--> We are to rotate an array upto k steps
--> The Solution:
-	-> First normalize k
-	-> Reverse the entire list
-	-> Reverse upto k index
-	-> Reverse after k index

@@ -1,8 +1,0 @@
--> We need to check if there are any two distinct indices whose values are equal and the difference between the indices is less than or equal to k
--> We can solve this using a hashmap
--> The Solution:
-	-> Create an empty map
-	-> For every integer in the nums,
-		-> If the integer is already in map, and if the difference of indices is less than or equal to k, return true
-		-> Put 'integer' as key and its index as value in the map
-	-> Return false

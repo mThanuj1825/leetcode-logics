@@ -1,7 +1,0 @@
--> We need to find the numebr of 1 bits in a given number
--> We can do this using bit manipulation
--> The Solution:
-	-> initialize c to 0
-	-> while n is greater than 0
-		-> We perform n = n & (n - 1), and also increment c
-	-> return c

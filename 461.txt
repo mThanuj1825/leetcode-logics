@@ -1,5 +1,0 @@
--> We need to find the number of different bits in two numbers
--> We can do this using bit manipulation
--> The Solution:
-	-> Find xor of n and m
-	-> return the no of set bits in the binary representation of n ^ m

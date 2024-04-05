@@ -1,5 +1,0 @@
--> We need to find the longest common prefix in a given array of strings
--> We can do this via sorting
--> The Solution:
-	-> We can sort the given array of strings
-	-> If the first and last strings have a common prefix, it is sure that all the strings between them also have a common prefix

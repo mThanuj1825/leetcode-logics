@@ -1,9 +1,0 @@
--> We need to check if a given number is a perfect square or not
--> We can do this using a simple binary search
--> The Solution:
-	-> First Initialize l to 1 and r to num
-	-> Perform a binary search
-		-> For every mid value, check if mid * mid == n, if true return true
-		-> Else if m * m < n, then modify l to m + 1
-		-> Else, modify r to m - 1
-	-> Return False

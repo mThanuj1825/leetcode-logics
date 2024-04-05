@@ -1,9 +1,0 @@
--> Check whether the given strings are isomorphic or not
--> We can do this using string manipulation
--> The Solution:
-	-> create 2 maps, one for s to t and other for t to s
-	-> iterate through s and update the map for every alphabet in s to t
-		-> If the current alphabet is already in map and it doesnt map to the correct alphabet, return False
-	-> iterate through t and update the map for every alphabet in t to s
-		-> If the current alphabet is already in map and it doesnt map to the correct alphabet, return False
-	-> return True

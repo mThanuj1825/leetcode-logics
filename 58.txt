@@ -1,7 +1,0 @@
--> We need to find the length of the last word in a string
--> We can do this using a linear search
--> The Solution:
-	-> First we need to strip the extra spaces
-	-> Then we iterate in a reverse order
-	-> If we find a space somewhere, we return len(s) - i - 1
-	-> If we did not find any spaces we return the len(s) as there is only one word

@@ -1,9 +1,0 @@
--> We need to find the length of the longest palindrome that can be made using the characters of the string str
--> We can use sets in order to find out this
--> The Solution:
-	-> Create an empty set s
-	-> For every char in str, 
-		-> If char not in s, add it to s
-		-> Else, remove it from s
-	-> If length of s is 0, return length of str
-	-> Else, return difference between length of s and str + 1

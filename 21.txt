@@ -1,8 +1,0 @@
--> We need to merge two sorted LinkedLists
--> We can do this easily as the elements as sorted, we can compare the values in both lists and add them to result ListNode
--> The Solution:
-	-> Loop through the both lists until the both nodes are not null
-	-> Compare the elements of first and second
-		-> If first is less than second, insert first and move first
-		-> Else insert second and move second
-	-> After the loop if there are any remaining elements in either first or second, add them all to the result

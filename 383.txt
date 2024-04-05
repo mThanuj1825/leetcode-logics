@@ -1,7 +1,0 @@
--> We need to check whether s1 can be built by the letters in s2 or not
--> We can do this using strng manipulation
--> The Solution:
-	-> For every char in s1,
-		-> Check if char is present in s2, if present we remove one occurence of it
-		-> Else, we return false
-	-> return true

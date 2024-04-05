@@ -1,6 +1,0 @@
--> We need to reverse the positions of words in a given string
--> We can do this using inbuilt methods
--> The Solution:
-	-> First we split the string into a string array
-	-> Then we reverse the string array
-	-> Return the joined string using spaces

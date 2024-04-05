@@ -1,8 +1,0 @@
--> We need to process a Reverse Polish Notation or postfix notation and return the resultant value
--> We can solve this using a stack
--> The Solution:
-	-> Create an empty stack
-	-> Iterate through all the tokens
-		-> If the token is not a mathematical symbol, append it into stack
-		-> Else, pop 2 elments from the stack and perform that operation between them and then append the resultant value into the stack
-	-> Pop and return the alst value from the stack

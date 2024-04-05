@@ -1,8 +1,0 @@
--> Given an integer, as an array of digits, we need to add '1' to it and return the result in the same way
--> We can do this using a linear approach
--> The Solution:
-	-> We iterate from the end
-	-> If we encountered 9, we make it as zero and continue our loop
-	-> If we encountered any other number, we increment it by 1 and break the loop
-	-> Outside the loop, we check if the first digit is '0', if so we insert an extra '1' at the 0th position of the list
-	-> Finally we return the list

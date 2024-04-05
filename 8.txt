@@ -1,9 +1,0 @@
--> Convert a string to integer
--> The Solution:
-	-> Strip leading and trailing spaces
-	-> Modify the string such that there are not - or + symbols and also note down the sign
-	-> Convert the number to an integer until there are only integers and break if we encounter any non integer value
-	-> Modify the sign of the result
-	-> If it underflows, return -2**31
-	-> If it overflows, return 2**31 - 1
-	-> Else, return result

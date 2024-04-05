@@ -1,8 +1,0 @@
--> We need to check if a string is a palindrome or not
--> We can do this in linear approach
--> The Solution:
-	-> First we convert the string to lowercase
-	-> Now we remove the non alphabetic characters from the string and create a new string with only alphabet
-	-> We then check the new string for palindrome, using two pointers left and right pointing to 0, len(new_string) - 1
-	-> If at any point new_string[left] != new_string[right], we return False
-	-> If no character is different, we then return True

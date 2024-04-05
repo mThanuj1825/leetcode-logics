@@ -1,9 +1,0 @@
--> We need to return a string array based on the given condition
--> The Solution:
-	-> Create an empty list
-	-> Loop from 1 to n + 1
-		-> If i % 3 == 0 and i % 5 == 0, append "FizzBuzz"
-		-> Else if, i % 3 == 0, append "Fizz"
-		-> Else if, i % 5 == 0, append "Buzz"
-		-> Else, append str(i)
-	-> return list

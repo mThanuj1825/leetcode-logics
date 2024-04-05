@@ -1,7 +1,0 @@
--> We need remove element in a array and then return the size of other elements
--> We can do this using a two pointer approach
--> The Solution:
-	-> Initialize left to 0
-	-> Iterate through the indices of nums using right
-	-> If the right number is not equal to val we change left value to right value and increment left
-	-> In the end we return left

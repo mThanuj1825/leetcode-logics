@@ -1,9 +1,0 @@
--> We need to convert the given sorted array of integers to a binary search tree
--> We can do this using a simple binary search like approach
--> The Solution:
-	-> If the recursive subarray is of length 0, we return null
-	-> First find the mid point of the array
-	-> Create a node with that mid element from the array
-	-> Then for the children of this node
-		-> For left child, call the same function recursively for subarray from least to mid - 1		-> For right child, call the same function recursively for subarray from mid + 1 to end
-	-> Finally, we return node

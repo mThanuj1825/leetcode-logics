@@ -1,7 +1,0 @@
--> We need to find the third unique max number in an array, if the length of array is less than 4, find max
--> We can do this using a set
--> The Solution:
-	-> First convert the list to set
-	-> Then sort the set into a list in reverse order
-	-> If length of nums is less than 4, we return nums[0]
-	-> Else, we return nums[2]

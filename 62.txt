@@ -1,0 +1,25 @@
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        memo = {}
+        def helper(i, j, memo):
+            key = str(i) + '_' + str(j)
+            
+            if key in memo:
+                return memo[key]
+
+            if i == 0 and j == 0:
+                memo[key] = 1
+                return 1
+            
+            if i < 0 or j < 0:
+                memo[key] = 0
+                return 0
+            
+            left = helper(i, j - 1, memo)
+            up = helper(i - 1, j, memo)
+
+            memo[key] = left + up
+
+            return memo[key]
+        
+        return helper(m - 1, n - 1, memo)

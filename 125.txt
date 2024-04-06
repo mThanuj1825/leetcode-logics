@@ -1,0 +1,16 @@
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        def filterString(s):
+            s = s.lower()
+            res = ""
+            valid = "0123456789qwertyuioplkjhgfdsazxcvbnm"
+
+            for c in s:
+                if c in valid:
+                    res += c
+            
+            return res
+
+        s = filterString(s)
+
+        return s == s[::-1]

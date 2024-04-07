@@ -1,0 +1,29 @@
+class Solution:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+        sub = {}
+        row = {}
+        col = {}
+
+        for i in range(9):
+            row[i] = set()
+            col[i] = set()
+        
+        for i in range(3):
+            for j in range(3):
+                k = str(i) + ',' + str(j)
+                sub[k] = set()
+
+        for i in range(9):
+            for j in range(9):
+                if board[i][j] >= '0' and board[i][j] <= '9':
+                    cur = int(board[i][j])
+
+                    k = str(i // 3) + "," + str(j // 3)
+
+                    if cur in row[i] or cur in col[j] or cur in sub[k]:
+                        return False
+                    
+                    row[i].add(cur)
+                    col[j].add(cur)
+                    sub[k].add(cur)
+        return True

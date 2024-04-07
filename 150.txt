@@ -1,0 +1,21 @@
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        stk = []
+
+        for c in tokens:
+            if c in '+-*/':
+                n2 = stk.pop()
+                n1 = stk.pop()
+
+                if c == '+':
+                    stk.append(n1 + n2)
+                elif c == '*':
+                    stk.append(n1 * n2)
+                elif c == '-':
+                    stk.append(n1 - n2)
+                elif c == '/':
+                    stk.append(int(n1 / n2))
+            else:
+                stk.append(int(c))
+        
+        return stk.pop()

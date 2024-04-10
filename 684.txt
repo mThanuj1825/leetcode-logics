@@ -1,0 +1,32 @@
+class Solution:
+    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+        graph = {}
+
+        for i, j in edges:
+            if i not in graph:
+                graph[i] = set([j])
+            else:
+                graph[i].add(j)
+            if j not in graph:
+                graph[j] = set([i])
+            else:
+                graph[j].add(i)
+        
+        q = deque()
+        for k, v in graph.items():
+            if len(v) == 1:
+                q.append(k)
+        
+        while q:
+            cur = q.popleft()
+            for i in graph[cur]:
+                graph[i].remove(cur)
+                if len(graph[i]) == 1:
+                    q.append(i)
+            
+            del graph[cur]
+
+        keys = set(graph.keys())
+        for i, j in edges[::-1]:
+            if i in keys and j in keys:
+                return [i, j]

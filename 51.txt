@@ -1,0 +1,34 @@
+class Solution:
+    def solveNQueens(self, n: int) -> List[List[str]]:
+        def helper(res, board, row, cols, neg, pos, n):
+            if row == n:
+                l = []
+                for r in board:
+                    l.append("".join(r))
+                res.append(l)
+                return
+
+            for col in range(n):
+                if col in cols or row + col in neg or row - col in pos:
+                    continue
+
+                cols.add(col)
+                neg.add(row + col)
+                pos.add(row - col)
+                board[row][col] = 'Q'
+                helper(res, board, row + 1, cols, neg, pos, n)
+                cols.remove(col)
+                neg.remove(row + col)
+                pos.remove(row - col)
+                board[row][col] = '.'
+
+        cols = set()
+        neg = set()
+        pos = set()
+
+        res = []
+        board = [['.'] * n for _ in range(n)]
+
+        helper(res, board, 0, cols, neg, pos, n)
+
+        return res
